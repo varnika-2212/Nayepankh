@@ -1,0 +1,85 @@
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+    padding:8px;
+}
+nav a:hover{
+    background-color:white;
+    color:#0077cc;
+    border-radius:5px;
+}
+
+section{
+    padding:30px;
+}
+
+.card{
+    border:1px solid lightgray;
+    padding:15px;
+    margin: 15px;
+    border: radius 15px;
+    background-color:white;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+button{
+    background:#0077cc;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+img{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#home{
+    text-align:center;
+    padding:30px;
+}
+#home{
+    text-align:center;
+    padding:30px;
+    background-color:#f0f8ff;
+}
+footer{
+    background-color:#0077cc;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+input{
+    width:300px;
+    padding:10px;
+    border:1px solid lightgray;
+    border-radius:5px;
+}
+
+form{
+    text-align:center;
+}
+#contact{
+    background-color:white;
+    padding:30px;
+}
